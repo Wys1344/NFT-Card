@@ -1,0 +1,106 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+#equilibriumImg {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+}
+
+#profileImg {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+hr {
+  color: hsl(215deg, 32%, 27%);
+  opacity: 10%;
+}
+
+.container {
+  background-color: hsl(217deg, 54%, 11%);
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  overflow: hidden;
+  background-color: hsl(216deg, 50%, 16%);
+  width: 280px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 1px 20px 1em 1px rgba(4, 4, 14, 0.986);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  justify-content: space-evenly;
+  max-width: 240px;
+}
+
+.cardStatus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statusContent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footerImg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardName {
+  color: white;
+  font-weight: 600;
+}
+
+.cardDescription {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 15px;
+  opacity: 70%;
+}
+
+.ethText {
+  color: hsl(178deg, 100%, 50%);
+  font-size: 14px;
+}
+
+.clockText {
+  color: hsl(215deg, 51%, 70%);
+  opacity: 80%;
+}
+
+.footerText {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 13px;
+}
+.footerText a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
